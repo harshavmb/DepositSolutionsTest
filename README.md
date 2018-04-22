@@ -1,7 +1,7 @@
 # DepositSolutionsTest
 Committed files for Deposit Solutions
 
-4 vms are spun up to run two app servers, two database (1 master & 1 slave) for redundancy, 1 load balancer (nginx also reverse proxy) & 1 monitoring server (having ganglia agent). All the machines were created by Oracle VM box hypervisor & vagrant.
+4 ubuntu vms (each of 2 GB RAM & 2 CPU) are spun up to run two app servers, two database (1 master & 1 slave) for redundancy, 1 load balancer (nginx also reverse proxy) & 1 monitoring server (having ganglia agent). All the machines were created by Oracle VM box hypervisor & vagrant.
 
 Below are the host names, configurations & software installed.
 1) lb01 : Acts as load balancer, reverse proxy, ansible control server & nginx log parser. 
